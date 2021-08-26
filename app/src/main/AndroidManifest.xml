@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dceexambuddy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DceExamBuddy">
+        <activity android:name=".importantLinks"
+            android:parentActivityName=".MainActivity" >
+
+        </activity>
+        <activity
+            android:name=".about_me"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity
+            android:name=".aboutUs"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".notesStream"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".cseNotesDrive"
+            android:parentActivityName=".cse_notes_btn" />
+        <activity android:name=".cse_notes_btn"
+            android:parentActivityName=".notesStream" />
+        <activity android:name=".csePrevDrive"
+            android:parentActivityName=".cse_prev_btn" />
+        <activity android:name=".cse_prev_btn"
+            android:parentActivityName=".previous_paper"/>
+        <activity android:name=".previous_paper"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ElectComputer"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Elect_Electronics"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Mechanical"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Computer_btn"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".stream"
+            android:parentActivityName=".syllabus_btn"/>
+        <activity android:name=".syllabus_btn"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".secondResult"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".firstResult"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".secondHome"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".firsthome"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

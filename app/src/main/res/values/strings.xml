@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dce Exam Buddy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="mdu_home">Mdu home</string>
+    <string name="mdu_result">Mdu result</string>
+    <string name="dce_home">DCE HOME</string>
+    <string name="dce_result">DCE RESULT</string>
+    <string name="syllabus">SYLLABUS</string>
+    <string name="notes">NOTES</string>
+    <string name="prev_year_paper">PREV YEAR PAPER</string>
+    <string name="books">BOOKS</string>
+
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".syllabus_btn">
+
+    <TextView
+        android:id="@+id/courses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="Courses"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center|top">
+
+    </TextView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/cardView"
+       android:layout_below="@+id/courses"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       app:cardCornerRadius="12dp"
+       app:cardElevation="12dp"
+       android:layout_margin="20dp"
+       app:cardBackgroundColor="@color/teal_200"
+       android:clickable="true"
+       android:foreground="?android:attr/selectableItemBackground"
+       >
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/btech"
+           android:scaleType="centerCrop"
+           android:id="@+id/imageView"
+           >
+
+       </ImageView>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Btech"
+           android:textSize="25sp"
+           android:textStyle="bold"
+           android:textColor="@color/black"
+           android:layout_gravity="center|top">
+
+       </TextView>
+
+   </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

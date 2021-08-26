@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".aboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_marginTop="3dp"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:src="@drawable/dcl_ogo"
+            android:layout_gravity="center_horizontal">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dce exam buddy"
+                android:layout_marginLeft="95dp"
+                android:textSize="17sp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/black"
+                ></TextView>
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_share_24"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center_vertical"
+                ></ImageView>
+        </LinearLayout>
+
+       <androidx.cardview.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:cardCornerRadius="25dp"
+           app:cardElevation="15dp"
+           app:cardBackgroundColor="#69F0AE"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           >
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               >
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="About App"
+                   android:textSize="28sp"
+                   android:textColor="@color/white"
+                   android:textStyle="bold"
+                   android:gravity="center_horizontal"
+                   android:background="#344955"
+                   ></TextView>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:text="Dce Exam Buddy is an app which provide Mdu manuals for free . It is a complete Learning app for engineering students.it is a free app where you can read syllabus
+,download and read previous year paper and handWritten Notes of various btech course.
+you can also view pdf without downloading notes .
+Help your friend by sharing this app.so they can use this free resources "
+                   android:textSize="15sp"
+                   android:textColor="@color/black"
+                   android:textStyle="bold"
+                   android:paddingLeft="10dp"
+                   android:background="#69F0AE"
+                   android:paddingRight="10dp"
+                   android:gravity="center_horizontal"
+
+                   ></TextView>
+
+           </LinearLayout>
+
+
+
+
+
+       </androidx.cardview.widget.CardView>
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/developer"
+           android:layout_width="match_parent"
+           android:layout_height="80dp"
+           android:layout_marginTop="10dp"
+           android:layout_marginRight="20dp"
+           app:cardBackgroundColor="#FF8A65"
+           android:layout_marginLeft="20dp"
+           android:foreground="?android:attr/selectableItemBackground"
+           android:clickable="true">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Developer"
+                   android:textColor="#CD000000"
+                   android:textSize="19sp"
+                   android:textStyle="bold"></TextView>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal"
+                   >
+                   <ImageView
+                       android:layout_width="wrap_content"
+                       android:layout_height="40dp"
+                       android:layout_marginLeft="10dp"
+                       android:src="@drawable/ic_baseline_person_24"
+                       ></ImageView>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:text="Vishal Bhardwaj"
+                       android:layout_marginLeft="10dp"
+                       android:textColor="@color/purple_700"
+                       android:textSize="20sp"
+                       android:textStyle="italic"
+                       ></TextView>
+
+               </LinearLayout>
+           </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                app:cardBackgroundColor="#56FFFFFF"
+                android:layout_marginLeft="20dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Support Development"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="italic"
+                        android:layout_marginLeft="15dp"
+                        />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        app:cardBackgroundColor="#3CFFFFFF"
+                        android:id="@+id/ratingBtn"
+                        android:layout_marginLeft="20dp"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            >
+                            <ImageView
+                                android:id="@+id/rate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/ic_baseline_star_rate_24"
+                                ></ImageView>
+
+                            <TextView
+                                android:id="@+id/rating"
+                                android:layout_toRightOf="@+id/rate"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Rate"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="italic"
+                                ></TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/rating"
+                                android:layout_marginLeft="43dp"
+                                android:text="if you like this app,please rate it in play store"
+                                android:textColor="@color/black"
+                                ></TextView>
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        app:cardBackgroundColor="#3CFFFFFF"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/reportBugs"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:clickable="true">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            >
+                            <ImageView
+                                android:id="@+id/bugs"
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="10dp"
+                                android:src="@drawable/ic_baseline_bug"
+                                ></ImageView>
+
+                            <TextView
+                                android:id="@+id/report"
+                                android:layout_toRightOf="@+id/bugs"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Report Bugs"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="@color/black"
+                                android:textSize="20sp"
+                                android:textStyle="italic"
+                                ></TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/report"
+                                android:layout_marginLeft="43dp"
+                                android:text="Report bugs or requested new feature"
+                                android:textColor="@color/black"
+                                ></TextView>
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="More Content Available Soon . Stay tuned"
+                        android:textStyle="italic"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#E30E0E"
+                        android:textSize="19sp"
+                        ></TextView>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

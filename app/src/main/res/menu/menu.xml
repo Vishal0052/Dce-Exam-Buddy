@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        >
+        <item
+            android:id="@+id/mdHomeMenu"
+            android:title="MDU HOME"
+            android:icon="@drawable/ic_baseline_home_24"
+            ></item>
+        <item
+            android:id="@+id/dceResult"
+            android:title="Dce Result"
+            android:icon="@drawable/ic_result"
+            ></item>
+
+        <item
+            android:id="@+id/sites"
+            android:title="Useful Sites"
+            android:icon="@drawable/ic_baseline_computer_24"
+            ></item>
+
+        <item
+            android:id="@+id/mduResult"
+            android:title="Mdu Result"
+            android:icon="@drawable/ic_result"
+            ></item>
+
+    </group>
+    <item
+        android:title="Content"
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/notes"
+                android:title="cse notes"
+                android:icon="@drawable/ic_notes"
+                ></item>
+            <item
+                android:id="@+id/Paper"
+                android:title="Cse prev Paper"
+                android:icon="@drawable/ic_notes"
+                ></item>
+
+
+        </menu>
+    </item>
+
+    <item
+        android:title="Social"
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/ic_baseline_share_24"
+                ></item>
+            <item
+                android:id="@+id/rating"
+                android:title="Rate us"
+                android:icon="@drawable/ic_baseline_star_rate_24"
+                ></item>
+
+
+        </menu>
+
+
+    </item>
+
+    <item
+        android:title="Featured"
+        >
+
+        <menu>
+
+            <item
+                android:id="@+id/about"
+                android:title="About Us"
+                android:icon="@drawable/ic_baseline_tag_faces_24"
+                ></item>
+            <item
+                android:id="@+id/feedback"
+                android:title="Feedback"
+                android:icon="@drawable/ic_baseline_feedback_24"
+                ></item>
+
+
+        </menu>
+
+
+    </item>
+
+</menu>
